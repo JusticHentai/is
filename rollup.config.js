@@ -15,7 +15,7 @@ export default [
         format: 'es',
       },
       {
-        file: './dist/my-component-cjs.js',
+        file: './dist/my-component.cjs',
         format: 'cjs',
       },
     ],
