@@ -1,6 +1,6 @@
 {
   "name": "@justichentai/is",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "类型判断库",
   "repository": {
     "type": "git",
@@ -9,6 +9,12 @@
   "license": "ISC",
   "author": "justichentai",
   "type": "module",
+  "exports": {
+    "./cjs": {
+      "import": "./dist/my-component.cjs",
+      "require": "./dist/my-component.cjs"
+    }
+  },
   "main": "dist/my-component.js",
   "typings": "dist/my-component.d.ts",
   "scripts": {
